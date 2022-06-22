@@ -5869,7 +5869,7 @@ let uname = args[0]
 if (!isCreator) throw  m.reply(`Lu Siapa Ajg`)
         if(!uname) m.reply("mana username nya")
         
-        axios.get(`https://kirbotzhost.xcodes.my.id:2087/json-api/removeacct?api.version=1&username=${uname}`, { headers: { Authorization: "Basic " + Buffer.from("root:@@kirbotzdev@@").toString("base64") } })
+        axios.get(`https://helgahost.xcodes.my.id:2087/json-api/removeacct?api.version=1&username=${uname}`, { headers: { Authorization: "Basic " + Buffer.from("root:@@kirbotzdev@@").toString("base64") } })
         .then(e=>{if([1, "1"].includes(e.data?.metadata?.result)) m.reply(`done user ${uname} Telah di Termint`); else {m.reply("error"); console.log(e.data)}})
         .catch(e=>{m.reply("error"); console.log(JSON.stringify(e, null, 2))})
       break            
@@ -5889,8 +5889,8 @@ if (!isCreator) throw  m.reply(`Lu Siapa Ajg`)
 case 'addpack':
          if(from != "120363042062885985@g.us") throw m.reply("Khusus Grup Tertentu🗿")
         let sUser1 = "root";
-        let sPass1 = "@@kirbotzdev@@";
-        let serverName1 = "kimcil.xcodesmy.id:2087";
+        let sPass1 = "@@helgadev@@";
+        let serverName1 = "helgahost.xcodes.my.id:2087";
 
         let uname1 = args?.join(" ")?.trim()?.split("|")?.[0]?.trim();
         let pack1 = args?.join(" ")?.trim()?.split("|")?.[1]?.trim();
