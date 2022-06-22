@@ -5887,7 +5887,7 @@ if (!isCreator) throw  m.reply(`Lu Siapa Ajg`)
                                           m.reply(`YT : https://youtube.com/`)
                                           break
 case 'addpack':
-         if(from != "120363042062885985@g.us") throw m.reply("Khusus Grup Tertentu🗿")
+         if(from != "120363039030876340@g.us") throw m.reply("Khusus Grup Tertentu🗿")
         let sUser1 = "root";
         let sPass1 = "@@helgadev@@";
         let serverName1 = "helgahost.xcodes.my.id:2087";
@@ -5954,7 +5954,7 @@ case 'addpack':
           });
         break                                                                         
         case 'vipdomain':
- if(from != "120363042062885985@g.us") throw m.reply("Khusus Grup Tertentu🗿")
+ if(from != "120363039030876340@g.us") throw m.reply("Khusus Grup Tertentu🗿")
         function subDomain1(host, ip) {
           throw new Promise((resolve) => {
             let zone1 = "c70d7278f7dd9cba835eeeea6da3ae43";
